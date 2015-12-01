@@ -1,6 +1,6 @@
 {
   "name": "generator-edp-es6",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "generator for edp with es6",
   "main": "index.js",
   "scripts": {
