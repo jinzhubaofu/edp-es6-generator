@@ -3,4 +3,6 @@
  * @author <%= author %>(<%= email %>)
  */
 
-console.log('hello');
+exports.init = function () {
+    console.log('hello, edp project');
+};
