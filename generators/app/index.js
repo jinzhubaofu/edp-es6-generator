@@ -7,7 +7,6 @@ const generators = require('yeoman-generator');
 const _ = require('lodash');
 const glob = require('glob');
 const mkdirp = require('mkdirp');
-const path = require('path');
 const fs = require('fs');
 
 module.exports = generators.Base.extend({
@@ -31,13 +30,6 @@ module.exports = generators.Base.extend({
                     'message': 'Your project description',
                     'store': false,
                     'default': 'a edp project with es6 support'
-                },
-                {
-                    'type': 'input',
-                    'name': 'main',
-                    'message': 'Your project main file',
-                    'store': false,
-                    'default': 'src/main.js'
                 },
                 {
                     'type': 'input',

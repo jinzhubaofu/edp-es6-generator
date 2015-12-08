@@ -2,7 +2,7 @@
   "name": "<%= name %>",
   "version": "<%= version %>",
   "description": "<%= description %>",
-  "main": "<%= main %>",
+  "main": "dist/index.js",
   "license": "MIT",
   "author": {
     "name": "<%= author %>",
